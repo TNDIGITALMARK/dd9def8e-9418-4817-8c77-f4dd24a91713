@@ -85,17 +85,17 @@ export default function HeroLandingPage() {
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
       {/* Header Navigation */}
       <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
-        <div className="container flex h-16 items-center justify-between">
+        <div className="container flex h-20 items-center justify-between">
           <div className="flex items-center space-x-4">
             <Image
               src="/generated/hands-reaching-logo.png"
-              alt="Holistic Recovery"
+              alt="Full Circle Resilience"
               width={40}
               height={40}
               className="rounded"
             />
             <div>
-              <h1 className="font-bold text-xl text-primary">Holistic Recovery</h1>
+              <h1 className="font-bold text-2xl text-primary tracking-tight">Full Circle Resilience</h1>
               <p className="text-xs text-muted-foreground">Hope • Healing • Transformation</p>
             </div>
           </div>
@@ -457,11 +457,11 @@ export default function HeroLandingPage() {
               <div className="flex items-center space-x-2">
                 <Image
                   src="/generated/hands-reaching-logo.png"
-                  alt="Holistic Recovery"
+                  alt="Full Circle Resilience"
                   width={24}
                   height={24}
                 />
-                <span className="font-bold text-primary">Holistic Recovery</span>
+                <span className="font-bold text-primary">Full Circle Resilience</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Professional therapy and recovery services with Christ-centered guidance.
@@ -496,7 +496,7 @@ export default function HeroLandingPage() {
             </div>
           </div>
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 Holistic Recovery Platform. All rights reserved. Licensed therapy services.</p>
+            <p>&copy; 2024 Full Circle Resilience. All rights reserved. Licensed therapy services.</p>
           </div>
         </div>
       </footer>
