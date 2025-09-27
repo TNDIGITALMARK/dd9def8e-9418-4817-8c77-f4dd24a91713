@@ -18,8 +18,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Holistic Recovery Platform",
+  description: "Professional therapy and recovery services combining personal testimony, Christ-centered guidance, fitness plans, and comprehensive support for addiction recovery, mental health, and family healing.",
+  keywords: "addiction recovery, therapy services, mental health, Christ-centered recovery, family therapy, fitness recovery, OCD treatment, telehealth counseling",
+  openGraph: {
+    title: "Holistic Recovery Platform",
+    description: "Overcoming 20 years of addiction and 37 years of OCD. Professional therapy services for recovery and healing.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
